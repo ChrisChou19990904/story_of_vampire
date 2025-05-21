@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>角色資料頁面</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s forwards;
+        }
+        section.animate-delay-1 {
+            animation-delay: 0.2s;
+        }
+        section.animate-delay-2 {
+            animation-delay: 0.4s;
+        }
+        section.animate-delay-3 {
+            animation-delay: 0.6s;
+        }
+        section.animate-delay-4 {
+            animation-delay: 0.8s;
+        }
+        section.animate-delay-5 {
+            animation-delay: 1.0s;
+        }
+        section.animate-delay-6 {
+            animation-delay: 1.2s;
+        }
+        section.animate-delay-7 {
+            animation-delay: 1.4s;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h2 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 700px;
+            background-color: white;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #999;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#vampire">吸血鬼</a>
+        <a href="#demon">惡魔</a>
+        <a href="#witch">女巫</a>
+        <a href="#werewolf">狼人</a>
+        <a href="#pope">教宗</a>
+        <a href="#angel">天使</a>
+    </nav>
+</header>
+
+<section id="vampire" class="animate-delay-1">
+    <h2>吸血鬼</h2>
+    <table>
+        <tr><th>屬性</th><th>描述</th></tr>
+        <tr><td>外貌</td><td>美麗的年輕白種女子，長髮</td></tr>
+        <tr><td>名字</td><td>莉莉亞</td></tr>
+        <tr><td>眼睛顏色</td><td>血紅色</td></tr>
+        <tr><td>服裝</td><td>黑紅披風，裡襯為紅色，外襯為黑色</td></tr>
+        <tr><td>能力</td><td>變形（蝙蝠、煙霧）、催眠人類、隔空取物、控制天氣（烏雲、雨、閃電）、控制動物群（蝙蝠群、鼠群、狼群）</td></tr>
+        <tr><td>單臂力量</td><td>約0.5公噸</td></tr>
+        <tr><td>跳躍力</td><td>約30米高</td></tr>
+        <tr><td>奔跑速度</td><td>時速三百公里</td></tr>
+        <tr><td>食物</td><td>鮮血</td></tr>
+        <tr><td>弱點</td><td>陽光、十字架、聖水、聖經、銀製品、教堂</td></tr>
+    </table>
+</section>
+
+<section id="demon" class="animate-delay-2">
+    <h2>惡魔</h2>
+    <table>
+        <tr><th>屬性</th><th>描述</th></tr>
+        <tr><td>外貌</td><td>帥氣的年輕白種男子，短髮</td></tr>
+        <tr><td>名字</td><td>阿賽爾</td></tr>
+        <tr><td>眼睛顏色</td><td>琥珀色（飛行模式下為闇紫色）</td></tr>
+        <tr><td>身高</td><td>193公分</td></tr>
+        <tr><td>體重</td><td>83公斤</td></tr>
+        <tr><td>能力</td><td>元素控制（冰與火）、時間暫停、飛行、靈體化、附身人類</td></tr>
+        <tr><td>單臂力量</td><td>約1公噸</td></tr>
+        <tr><td>跳躍力</td><td>約60米高</td></tr>
+        <tr><td>奔跑速度</td><td>時速六百公里</td></tr>
+        <tr><td>食物</td><td>人類的負面情緒</td></tr>
+        <tr><td>弱點</td><td>陽光、十字架、聖水、聖經、銀製品、教堂</td></tr>
+    </table>
+</section>
+
+<section id="witch" class="animate-delay-3">
+    <h2>女巫</h2>
+    <table>
+        <tr><th>屬性</th><th>描述</th></tr>
+        <tr><td>外貌</td><td>醜陋佝僂的年長白種女性</td></tr>
+        <tr><td>眼睛顏色</td><td>毒綠色</td></tr>
+        <tr><td>服裝</td><td>破爛黑袍，戴高帽</td></tr>
+        <tr><td>武器</td><td>木製掃帚</td></tr>
+        <tr><td>弱點</td><td>高溫（火焰與閃電）</td></tr>
+    </table>
+</section>
+
+<section id="werewolf" class="animate-delay-4">
+    <h2>狼人</h2>
+    <table>
+        <tr><th>屬性</th><th>描述</th></tr>
+        <tr><td>身高</td><td>220 公分</td></tr>
+        <tr><td>體重</td><td>120 公斤</td></tr>
+        <tr><td>眼睛顏色</td><td>腥紅色</td></tr>
+        <tr><td>外型</td><td>半人半獸形態</td></tr>
+        <tr><td>皮毛顏色</td><td>黑或深灰</td></tr>
+        <tr><td>爪子</td><td>鋒利</td></tr>
+        <tr><td>單臂力量</td><td>約4公噸</td></tr>
+        <tr><td>跳躍力</td><td>約50米高</td></tr>
+        <tr><td>弱點</td><td>銀製品、強大的物理攻擊</td></tr>
+    </table>
+</section>
+
+<section id="pope" class="animate-delay-5">
+    <h2>教宗</h2>
+    <table>
+        <tr><th>屬性</th><th>描述</th></tr>
+        <tr><td>外貌</td><td>肥胖且其貌不揚的年長白種男性</td></tr>
+        <tr><td>身高</td><td>165 公分</td></tr>
+        <tr><td>體重</td><td>75 公斤</td></tr>
+        <tr><td>武器</td><td>手持權杖</td></tr>
+        <tr><td>攻擊特性</td><td>發射追蹤能量光球</td></tr>
+    </table>
+</section>
+
+<section id="angel" class="animate-delay-6">
+    <h2>天使</h2>
+    <table>
+        <tr><th>屬性</th><th>描述</th></tr>
+        <tr><td>外貌</td><td>金髮帥氣的年輕白人男子</td></tr>
+        <tr><td>眼睛顏色</td><td>燃燒的金紅眼</td></tr>
+        <tr><td>與阿賽爾的關係</td><td>前同事</td></tr>
+        <tr><td>單臂力量</td><td>一噸</td></tr>
+        <tr><td>跳躍力</td><td>六十米高</td></tr>
+        <tr><td>服裝</td><td>上半身打赤膊，身穿白色長褲</td></tr>
+        <tr><td>翅膀</td><td>潔白翅膀（全息投影）</td></tr>
+        <tr><td>光環</td><td>黃色光環（全息投影）</td></tr>
+        <tr><td>身高</td><td>195 公分</td></tr>
+        <tr><td>體重</td><td>85 公斤</td></tr>
+        <tr><td>角色定位</td><td>最終階段敵人</td></tr>
+        <tr><td>戰鬥力</td><td>極高</td></tr>
+        <tr><td>不具備的技能</td><td>變形、催眠、隱形、控制天氣等</td></tr>
+    </table>
+</section>
+
+</body>
+</html>
