@@ -26,6 +26,24 @@
         nav a:hover {
             text-decoration: underline;
         }
+        #vampire{
+            background-color: aqua;
+        }
+        #demon{
+            background-color: lightpink;
+        }
+        #witch{
+            background-color: lightyellow;
+        }
+        #werewolf{
+            background-color: lightgreen;
+        }
+        #pope{
+            background-color: lightblue;
+        }
+        #angel{
+            background-color: lightcoral;
+        }
         section {
             padding: 40px 20px;
             opacity: 0;
@@ -111,98 +129,500 @@
         }
     </script>
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<section id="vampire" class="animate-delay-1">
+<br>
+    <section id="vampire" class="animate-delay-1">
     <h2>吸血鬼</h2>
-    <table>
-        <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>外貌</td><td>美麗的年輕白種女子，長髮</td></tr>
-        <tr><td>名字</td><td>莉莉亞</td></tr>
-        <tr><td>眼睛顏色</td><td>血紅色</td></tr>
-        <tr><td>身高</td><td>173公分</td></tr>
-        <tr><td>體重</td><td>53公斤</td></tr>
-        <tr><td>服裝</td><td>黑紅披風，裡襯為紅色，外襯為黑色</td></tr>
-        <tr><td>魔法能力</td><td>變形（蝙蝠、煙霧）、催眠人類、隔空取物、控制天氣（召喚烏雲、雨、閃電）、控制動物群（蝙蝠群、鼠群、狼群）</td></tr>
-        <tr><td>單臂力量</td><td>約0.5公噸</td></tr>
-        <tr><td>跳躍力</td><td>約30米高</td></tr>
-        <tr><td>奔跑速度</td><td>時速三百公里</td></tr>
-        <tr><td>食物</td><td>鮮血</td></tr>
-        <tr><td>弱點</td><td>陽光、聖光、十字架、聖水、聖經、銀製品、教堂</td></tr>
-    </table>
+    <ul>
+        <li>生理性別：男性</li>
+        <li>名字：利奧</li>
+        <li>外觀：年輕帥氣的白種男孩</li>
+        <li>衣著：黑紅色披風（裡襯為紅色，外襯為黑色）</li>
+        <li>頭髮：黑色短髮</li>
+        <li>眼睛：血紅色</li>
+        <li>身高：一百九十三公分</li>
+        <li>體重：七十三公斤</li>
+        <li>視覺年齡：十九歲</li>
+        <li>弱點：懼陽光、十字架、聖水、聖經與銀製品，無法進入教堂。</li>
+        <li>物理能力：
+            <table><thead>
+            <tr><td>項目</td><td>詳細數據</td></tr>
+            </thead>
+                <tr>
+                    <td>彈跳力</td>
+                    <td>最高60公尺（背人減半為30公尺；抬重物無法跳躍）</td>
+                </tr>
+                <tr>
+                    <td>奔跑速度</td>
+                    <td>最高時速600公里（背人減半為300公里；抬重物無法奔跑）</td>
+                </tr>
+                <tr>
+                    <td>單手力量</td>
+                    <td>一噸</td>
+                </tr>
+                <tr>
+                    <td>游泳速度</td>
+                    <td>每小時60公里</td>
+                </tr>
+            </table>
+        </li>
+        <li>魔法能力：
+            <ol>
+                <li>變形（可變身為蝙蝠和煙霧）<table>
+                    <thead>
+                    <tr>
+                        <th>變身類型</th>
+                        <th>能力描述</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>蝙蝠</td>
+                        <td>
+                            <ul>
+                                <li>飛行時速達六百公里</li>
+                                <li>在通緝狀態下會被偵測到</li>
+                                <li>不怕陽光，但物理力量下降</li>
+                                <li>只能舉起一百公斤以內的物體</li>
+                                <li>依然懼怕聖物，無法進入教堂</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>煙霧</td>
+                        <td>
+                            <ul>
+                                <li>飛行速度達一馬赫</li>
+                                <li>在通緝狀態下無法被偵測</li>
+                                <li>不可攻擊，但可穿牆、進入教堂</li>
+                                <li>對聖物免疫</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table></li>
+                <li>催眠NPC<table>
+                    <thead>
+                    <tr>
+                        <th>技能</th>
+                        <th>描述</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>催眠能力</td>
+                        <td>可對非玩家角色施放催眠，無時間限制。</td>
+                    </tr>
+                    <tr>
+                        <td>效果</td>
+                        <td>
+                            被催眠的非玩家角色將無法獲得利奧的物理能力和魔法能力
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>適用形態</td>
+                        <td>
+                            <ul>
+                                <li>人類形態</li>
+                                <li>蝙蝠形態</li>
+                                <li>煙霧形態</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>特殊效果</td>
+                        <td>在使用技能時，如果是人類形態或蝙蝠形態，利奧的紅色眼睛會發光</td>
+                    </tr>
+                    </tbody>
+                </table></li>
+                <li>操控動物（蝙蝠群、鼠群、狼群）。</li>
+                <li>控制天氣
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>功能</th>
+                            <th>描述</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>召喚雲層</td>
+                            <td>可以在天空召喚雲層。</td>
+                        </tr>
+                        <tr>
+                            <td>下雨</td>
+                            <td>能讓區域內降下雨水。</td>
+                        </tr>
+                        <tr>
+                            <td>召喚閃電</td>
+                            <td>能夠召喚閃電攻擊目標。</td>
+                        </tr>
+                        <tr>
+                            <td>方圓一百公尺內烏雲壟罩</td>
+                            <td>讓方圓一百公尺範圍內被烏雲覆蓋。</td>
+                        </tr>
+                        <tr>
+                            <td>移動中的烏雲</td>
+                            <td>當玩家移動，烏雲會隨著玩家移動。</td>
+                        </tr>
+                        <tr>
+                            <td>抵擋陽光</td>
+                            <td>利用烏雲來抵擋陽光。</td>
+                        </tr>
+                        <tr>
+                            <td>閃電攻擊</td>
+                            <td>用閃電對敵人發動攻擊。</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <strong style="color:darkred">此技能之限制：</strong>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>限制類型</th>
+                            <th>描述</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><strong>能力描述</strong></td>
+                            <td>可持續一分鐘，並能無限召喚閃電。</td>
+                        </tr>
+                        <tr>
+                            <td><strong>召喚限制</strong></td>
+                            <td>
+                                <ol>
+                                    <li>每次最多只能召喚三串閃電。</li>
+                                    <li>每次使用最多只能同時攻擊三人。</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>冷卻時間</strong></td>
+                            <td>
+                                <ol>
+                                    <li>每次使用後需等待一分鐘才能再次使用。</li>
+                                    <li>這一分鐘內會有疲勞期。</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>使用限制</strong></td>
+                            <td>在室內無法使用此技能；在蝙蝠狀態和煙霧狀態下也無法使用此技能</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                <li>隔空取物
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                        <tr>
+                            <th style="border: 1px solid black; padding: 8px; text-align: left; background-color: #f2f2f2;">使用對象</th>
+                            <th style="border: 1px solid black; padding: 8px; text-align: left; background-color: #f2f2f2;">可選動作</th>
+                            <th style="border: 1px solid black; padding: 8px; text-align: left; background-color: #f2f2f2;">補充說明</th>
+                        </tr>
+                        </thead>
+                        <tbody style="background-color: white;">
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">對他人使用</td>
+                            <td style="border: 1px solid black; padding: 8px;">可選擇對象（50公尺範圍內，重量一百公斤以內）</td>
+                            <td style="border: 1px solid black; padding: 8px;">動態物體顯示框框，選擇操作對象</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">單個對象</td>
+                            <td style="border: 1px solid black; padding: 8px;">吸過來、水平飛行、垂直起飛、拋物線飛行</td>
+                            <td style="border: 1px solid black; padding: 8px;">可調整飛行角度與力道</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">兩個對象</td>
+                            <td style="border: 1px solid black; padding: 8px;">吸過來、兩者垂直起飛、相向運動（撞擊）</td>
+                            <td style="border: 1px solid black; padding: 8px;">兩個物體會相撞</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">三個以上對象</td>
+                            <td style="border: 1px solid black; padding: 8px;">垂直起飛</td>
+                            <td style="border: 1px solid black; padding: 8px;">僅能選擇垂直起飛</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">垂直起飛選項</td>
+                            <td style="border: 1px solid black; padding: 8px;">瞬間拉力或慢慢拉升</td>
+                            <td style="border: 1px solid black; padding: 8px;">瞬間拉力適用於所有物體；慢拉適用於每秒3公尺以下物體</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">對自己使用</td>
+                            <td style="border: 1px solid black; padding: 8px;">懸浮飛行</td>
+                            <td style="border: 1px solid black; padding: 8px;">最快時速200公里。此狀態無法使用隔空取物技能，但可進行普通攻擊，以及催眠NPC、控制天氣、操控動物</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; padding: 8px;">攜帶重物</td>
+                            <td style="border: 1px solid black; padding: 8px;">減速飛行</td>
+                            <td style="border: 1px solid black; padding: 8px;">若攜等身重物（例如人類），速度降至100公里每小時；若抬起過重物品（例如馬車、砲車、農場的哺乳類牲畜）則飛不起來</td>
+                        </tr>
+                        </tbody>
+                    </table
+                </li>
+            </ol>
+        </li>
+        <li>食物來源：鮮血。</li>
+        <li>生理情況：沒有生育能力，不需要撒尿和拉屎，也不會流汗，但依然保留性慾且對容貌姣好的異性有生理上的感覺，能射精但是精子是死的。</li>
+        <li>青春的維持：和惡魔做交易而獲得永生，外貌永遠停留在十九歲</li>
+        <li>他變成吸血鬼的原因：看不慣教會的腐敗而試圖挑戰教會的權威於是被視為異端並遭到處決，後來在地獄的惡魔的幫助下以吸血鬼的身分重生並獲得魔法能力、永生、超越常人的物理能力</li>
+    </ul>
 </section>
-
+    <br>
 <section id="demon" class="animate-delay-2">
     <h2>惡魔</h2>
-    <table>
-        <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>外貌</td><td>帥氣的年輕白種男子，短髮</td></tr>
-        <tr><td>名字</td><td>阿賽爾</td></tr>
-        <tr><td>眼睛顏色</td><td>琥珀色（飛行模式下為闇紫色）</td></tr>
-        <tr><td>身高</td><td>193公分</td></tr>
-        <tr><td>體重</td><td>83公斤</td></tr>
-        <tr><td>魔法能力</td><td>元素控制（冰與火）、時間暫停、能量防護罩、飛行（時速九百公里）、靈體化、附身人類</td></tr>
-        <tr><td>單臂力量</td><td>約1公噸</td></tr>
-        <tr><td>跳躍力</td><td>約60米高</td></tr>
-        <tr><td>奔跑速度</td><td>時速六百公里</td></tr>
-        <tr><td>食物</td><td>人類的負面情緒</td></tr>
-        <tr><td>弱點</td><td>陽光、聖光、十字架、聖水、聖經、銀製品、教堂</td></tr>
-    </table>
+    <ul>
+        <li>生理性別：女性</li>
+        <li>名字：伊索爾德</li>
+        <li>外觀：年輕貌美的白種女子</li>
+        <li>身高：一百七十三公分</li>
+        <li>體重：五十三公斤</li>
+        <li>胸部尺寸：D罩杯</li>
+        <li>視覺年齡：二十五歲</li>
+        <li>衣著：黑色禮服（露手臂、肚臍、胸部）、短裙（裡面是現代女性的內褲而非安全褲）、馬靴</li>
+        <li>頭髮：金色長髮</li>
+        <li>眼睛：碧藍色（常態下）；燃燒的暗紫色（飛行模式下）</li>
+        <li>弱點：懼陽光、十字架、聖水、聖經、銀製品、聖光，無法進入教堂。</li>
+        <li>物理能力：
+            <table><thead>
+            <tr><td>項目</td><td>詳細數據</td></tr>
+            </thead>
+                <tr>
+                    <td>彈跳力</td>
+                    <td>最高30公尺（背人減半為10公尺；抬重物無法跳躍）</td>
+                </tr>
+                <tr>
+                    <td>奔跑速度</td>
+                    <td>最高時速300公里（背人減半為150公里；抬重物無法奔跑）</td>
+                </tr>
+                <tr>
+                    <td>單手力量</td>
+                    <td>五百公斤</td>
+                </tr>
+                <tr>
+                    <td>游泳速度</td>
+                    <td>每小時30公里</td>
+                </tr>
+            </table></li>
+        <li>魔法能力：
+            <ul>
+                <li>元素操控（吐火、冷卻液，近戰用，範圍五公尺）。</li>
+                <li>元素球魔法（火球、冰球等，爆炸範圍五十公尺，屬於遠程攻擊，對近距離的敵人施展此技能也會波及到自己）。</li>
+                <li>防護罩（包住全身的紫色半透明的球狀能量護盾）。</li>
+                <li>時間暫停
+                    <ol>
+                        <li>範圍：方圓50米內</li>
+                        <li>效果：讓範圍內的所有物體的時間流速變慢</li>
+                        <li>持續時間：10秒鐘</li>
+                        <li>聖光和聖水在時間控制範圍內，移動速度為每秒3公尺</li>
+                        <li>限制：使用四次後冷卻時間和疲勞期持續三十秒</li>
+                    </ol>
+                </li>
+                <li>飛行
+                    <ol>
+                        <li>飛行前頭部會長出一對黑色的尖角且背部會長出一對黑色的蝙蝠翅膀（皆為全息投影，非實體物質）</li>
+                        <li>飛行速度的極限是時速九百公里</li>
+                        <li>眼睛會從藍色轉變成闇紫色並且冒火</li>
+                        <li>在通緝狀態下會被偵測到</li>
+                        <li>物理力量沒有減弱，但是一樣懼怕陽光和一切聖物，並且無法進入教堂</li>
+                        <li>揹著人時飛行速度會減弱至時速四百五十公里，但是揹著重物時無法飛行</li>
+                        <li>飛行時一樣可以使用任何魔法技能</li>
+                    </ol>
+                </li>
+                <li>靈體化
+                    <ol>
+                        <li>穿牆</li>
+                        <li>可附身非玩家角色</li>
+                        <li>飛行速度一馬赫</li>
+                        <li>在通緝狀態下無法被偵測</li>
+                        <li>無法進行物理攻擊</li>
+                        <li>一樣畏懼陽光和聖物</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>附身限制：可附身一分鐘，冷卻一分鐘。在這一分鐘內可隨時離開NPC身體，但待在NPC身體內超過二十秒以上即進入冷卻。附身者具備他的物理能力和魔法能力且對聖物和陽光免疫。</li>
+        <li>食物來源：人類的負面情緒。</li>
+        <li>生理情況：不需要撒尿和拉屎，也不會流汗，但有性慾且對容貌姣好的異性有生理上的感覺。</li>
+        <li>青春的維持：身為神族的一員，本來就能長生不老，外貌永遠停留在二十五歲</li>
+        <li>她變成惡魔的原因：看不慣上帝的虛偽、高傲，和對凡間的信徒的冷漠，而感到失望並離開天堂，然後投靠地獄</li>
+    </ul>
 </section>
-
-<section id="witch" class="animate-delay-3">
+    <br>
+    <em style="display:block;text-align: center;"><strong>註：疲勞期指的是跳躍力、奔跑速度、力量都只有平常的四分之一</strong></em>
+<br>
+    <section id="witch" class="animate-delay-3">
     <h2>女巫</h2>
-    <table>
-        <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>外貌</td><td>醜陋佝僂的年長白種女性</td></tr>
-        <tr><td>眼睛顏色</td><td>毒綠色</td></tr>
-        <tr><td>服裝</td><td>破爛黑袍，戴高帽</td></tr>
-        <tr><td>武器</td><td>木製掃帚</td></tr>
-        <tr><td>魔法能力</td><td>飛行（時速兩百公里，需騎掃帚才能飛）、使對手暫時癱瘓、使對手暫時失明</td></tr>
-        <tr><td>弱點</td><td>高溫（火焰與閃電）、聖物（聖光、十字架、聖水、聖經、銀製品）</td></tr>
-        <tr><td>食物</td><td>普通食物（為了充飢）、活人（為了提升修為）</td></tr>
-    </table>
+    <p>外觀特徵：<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+    <tr>
+        <th>屬性</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>外貌</td>
+        <td>相貌醜陋的老太婆，身材佝僂，滿臉皺紋</td>
+    </tr>
+    <tr>
+        <td>眼睛顏色</td>
+        <td>毒綠色</td>
+    </tr>
+    <tr>
+        <td>眼神</td>
+        <td>陰冷</td>
+    </tr>
+    <tr>
+        <td>牙齒</td>
+        <td>黃色且鋒利</td>
+    </tr>
+    <tr>
+        <td>服裝</td>
+        <td>破爛的黑色長袍，戴著高帽</td>
+    </tr>
+    <tr>
+        <td>武器</td>
+        <td>木製掃帚</td>
+    </tr>
+    </tbody>
+</table>
+    </p>
+    <h3>行為與特點</h3>
+    <ul>
+        <li>女巫通常隱居在村落邊緣或森林深處，常以治療或預言為名，但實際上進行邪惡的巫術儀式。</li>
+        <li>女巫會生吃小孩，並透過小孩的血液召喚惡魔或邪靈。</li>
+        <li>她們能夠騎掃帚在空中飛行，速度約時速兩百公里，並且不怕陽光，但是一樣畏懼聖物</li>
+    </ul>
+    <h3>能力與攻擊手段</h3>
+    <ul>
+        <li>她們能使用巫術讓玩家感到幻覺或詛咒玩家，使其癱瘓或失明。</li>
+        <li>女巫擅長變形術，能變化成動物如烏鴉、蛇或黑貓。</li>
+    </ul>
+    <h3>狩獵與弱點</h3>
+    <ul>
+        <li>女巫的巢穴隱蔽且危險，但若玩家能進入，會發現巫術物品（如神秘藥劑、符文、魔法書）。</li>
+        <li>女巫的弱點是她們的掃帚和魔法書，摧毀或偷走這些物品會削弱她們的力量。</li>
+        <li>女巫也怕火，閃電和火焰可以對她們造成致命傷害。</li>
+        <li>女巫也怕聖物</li>
+    </ul>
+    <h3>互動方式</h3>
+    <ul>
+        <li>女巫生吃活人，所以她們會下意識認為玩家要和她們搶奪獵物而和玩家敵對。</li>
+        <li>不過，女巫也可能會在玩家獲得她們所需物品或達成特定任務後提供幫助。</li>
+    </ul>
 </section>
-
+<br>
 <section id="werewolf" class="animate-delay-4">
     <h2>狼人</h2>
-    <table>
-        <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>身高</td><td>220 公分</td></tr>
-        <tr><td>體重</td><td>120 公斤</td></tr>
-        <tr><td>眼睛顏色</td><td>腥紅色</td></tr>
-        <tr><td>外型</td><td>半人半獸形態</td></tr>
-        <tr><td>皮毛顏色</td><td>黑或深灰</td></tr>
-        <tr><td>爪子</td><td>鋒利</td></tr>
-        <tr><td>單臂力量</td><td>約4公噸</td></tr>
-        <tr><td>跳躍力</td><td>約50米高</td></tr>
-        <tr><td>弱點</td><td>銀製品、強大的物理攻擊</td></tr>
-        <tr><td>食物</td><td>活人（為了充飢）</td></tr>
-    </table>
+    <p>外觀特徵：<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+    <tr>
+        <th>屬性</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>身高</td>
+        <td>220 公分</td>
+    </tr>
+    <tr>
+        <td>體重</td>
+        <td>120 公斤</td>
+    </tr>
+    <tr>
+        <td>外型</td>
+        <td>半人半獸形態，皮毛粗糙</td>
+    </tr>
+    <tr>
+        <td>皮毛顏色</td>
+        <td>黑色或深灰色</td>
+    </tr>
+    <tr>
+        <td>臉部特徵</td>
+        <td>部分人類特徵，眼睛腥紅色</td>
+    </tr>
+    <tr>
+        <td>體格</td>
+        <td>肌肉發達，四肢粗壯</td>
+    </tr>
+    <tr>
+        <td>武器</td>
+        <td>鋒利的爪子</td>
+    </tr>
+    </tbody>
+</table>
+    </p>
+    <h3>行為與特點</h3>
+    <ul>
+        <li>狼人在月圓之夜或特殊條件下會變身，擁有強大的力量和敏捷度。</li>
+        <li>牠們的嗅覺極其靈敏，能夠追蹤玩家的氣味。</li>
+        <li>狼人大多在森林中徘徊，會生吃活人。玩家進入其領地時，常聽見狼嚎聲和樹林的窸窣聲。</li>
+        <li>狼人的血液具有魔力，可以用來製作藥劑或法術。</li>
+        <li>狼人通常是失控的存在，所以若玩家誤入牠們的地盤，牠們會瘋狂追殺玩家。</li>
+    </ul>
+    <h3>物理能力</h3>
+    <ul>
+        <table><thead>
+        <tr><td>項目</td><td>詳細數據</td></tr>
+        </thead>
+            <tr>
+                <td>彈跳力</td>
+                <td>最高五十公尺</td>
+            </tr>
+            <tr>
+                <td>奔跑速度</td>
+                <td>最高時速兩百公里</td>
+            </tr>
+            <tr>
+                <td>單手力量</td>
+                <td>四噸，遠勝兩位主角</td>
+            </tr>
+            <tr>
+                <td>游泳速度</td>
+                <td>每小時二十公里</td>
+            </tr>
+        </table>
+    </ul>
+    <h3>狩獵與弱點</h3>
+    <ul>
+        <li>狼人對銀器極為敏感，銀製武器能對其造成致命傷害。</li>
+        <li>狼人害怕高溫，閃電和火焰能對其造成致命傷害。</li>
+    </ul>
+    <h3>互動方式</h3>
+    <ul>
+        <li>玩家可以選擇攻擊狼人，並收集戰利品或材料。</li>
+        <li>狼人在遊戲中是敵對勢力，但也可能會在面對更大的威脅時（例如聖騎士）與玩家合作。</li>
+    </ul>
 </section>
-
+<br>
 <section id="pope" class="animate-delay-5">
     <h2>教宗</h2>
     <table>
         <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>外貌</td><td>肥胖且其貌不揚的年長白種男性</td></tr>
+        <tr><td>外貌</td><td>肥胖、矮小，且其貌不揚的年長白種男性</td></tr>
         <tr><td>身高</td><td>165 公分</td></tr>
         <tr><td>體重</td><td>75 公斤</td></tr>
         <tr><td>武器</td><td>手持銀製權杖</td></tr>
         <tr><td>攻擊方式</td><td>用銀製權杖打人（近戰）、發射聖光組成的能量光球（遠程，只對吸血鬼、惡魔、女巫有效，有追蹤功能）</td></tr>
     </table>
 </section>
-
+<br>
 <section id="angel" class="animate-delay-6">
     <h2>天使</h2>
     <table>
         <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>外貌</td><td>金髮帥氣的年輕白種男子</td></tr>
-        <tr><td>眼睛顏色</td><td>燃燒的金紅眼（象徵神的權威與不可侵犯性）</td></tr>
-        <tr><td>與阿賽爾的關係</td><td>前同事</td></tr>
-        <tr><td>單臂力量</td><td>一噸</td></tr>
+        <tr><td>外貌</td><td>金髮帥氣的年輕白種男子，身材比<a href="#vampire">利奧</a>壯碩，長相也更成熟</td></tr>
+        <tr><td>眼睛顏色</td><td>普通狀態下為碧藍色；飛行狀態下為燃燒的金紅色（象徵神的權威與不可侵犯性，和<a href="#demon">伊索爾德</a>的闇紫色眼睛成鮮明對比）</td></tr>
+        <tr><td>與<a href="#demon">伊索爾德的關係</a></td><td>前同事</td></tr>
+        <tr><td>膚色</td><td>橄欖色</td></tr>
+        <tr><td>視覺年齡</td><td>二十五歲</td></tr>
+        <tr><td>單臂力量</td><td>二噸</td></tr>
         <tr><td>跳躍力</td><td>六十米高</td></tr>
         <tr><td>服裝</td><td>上半身打赤膊，身穿白色長褲</td></tr>
-        <tr><td>翅膀</td><td>潔白翅膀（全息投影）</td></tr>
-        <tr><td>光環</td><td>懸浮在頭上的黃色光環（全息投影）</td></tr>
+        <tr><td>翅膀</td><td>潔白翅膀（全息投影，只有在飛行狀態下才會出現）</td></tr>
+        <tr><td>光環</td><td>懸浮在頭上的黃色光環（全息投影，只有在飛行狀態下才會出現）</td></tr>
         <tr><td>身高</td><td>195公分（不包含光環和翅膀）</td></tr>
         <tr><td>體重</td><td>85公斤</td></tr>
         <tr><td>跳躍力</td><td>約60米高</td></tr>
