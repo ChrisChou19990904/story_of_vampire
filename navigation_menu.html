@@ -53,7 +53,10 @@
         #pope{
             background-color: lightblue;
         }
-        #angel{
+        #female_angel{
+            background-color: lightpink;
+        }
+        #male_angel{
             background-color: lightcoral;
         }
         section {
@@ -91,6 +94,9 @@
         }
         section.animate-delay-10 {
             animation-delay: 2.0s;
+        }
+        section.animate-delay-11 {
+            animation-delay: 2.2s;
         }
         @keyframes fadeInUp {
             to {
@@ -137,7 +143,8 @@
         <a href="#vampire_hunter">吸血鬼獵人</a>
         <a href="#paladin">聖騎士</a>
         <a href="#pope">教宗</a>
-        <a href="#angel">天使</a>
+        <a href="#female_angel">雌性天使</a>
+        <a href="#male_angel">雄性天使</a>
     </nav>
 </header>
 <div id="google-translate-box">
@@ -455,7 +462,7 @@
         <li>視覺年齡：二十歲</li>
         <li>衣著：<ol><li>出門在外：白色手套、全身黑的燕尾服、領帶、黑色皮鞋</li><li>在家：一件三角褲</li></ol></li>
         <li>頭髮：棕色短髮</li>
-        <li>眼睛：琥珀色（常態下）；燃燒的暗紫色（飛行模式下）</li>
+        <li>眼睛：常態下為琥珀色（象徵祂的超自然性質）；<a href="#fly">飛行模式</a>下為燃燒的暗紫色（象徵祂的黑闇性質）</li>
         <li>弱點：懼陽光、十字架、聖水、聖經、銀製品、聖光，無法進入教堂。</li>
         <li>物理能力：
             <table><thead>
@@ -592,9 +599,11 @@
                 </li>
                 <li id="fly">飛行
                     <ol>
-                        <li>飛行前頭部會長出一對黑色的尖角且背部會長出一對黑色的蝙蝠翅膀（皆為全息投影，非實體物質）</li>
+                        <li>頭部會長出一對黑色的尖角（為全息投影，非實體物質）</li>>
+                        <li>肩膀會長出一對黑色的蝙蝠翅膀（為全息投影，非實體物質）</li>
+                        <li>脊椎末端會長出末端為叉子形狀的黑色尾巴（為全息投影，非實體物質）</li>
                         <li>飛行速度的極限是時速九百公里</li>
-                        <li>眼睛會從藍色轉變成闇紫色並且冒火</li>
+                        <li>眼睛會從琥珀色轉變成闇紫色並且冒火</li>
                         <li>在通緝狀態下會被偵測到</li>
                         <li>物理力量沒有減弱，但是一樣懼怕陽光和一切聖物，並且無法進入教堂</li>
                         <li>揹著人時飛行速度不會減弱，但是揹著重物時速度會減至每小時四百五十公里</li>
@@ -788,11 +797,11 @@
         <h2>修女</h2>
         <table>
             <tr><th>屬性</th><th>描述</th></tr>
-            <tr><td>外貌</td><td>清一色都是女性，有姑娘、阿姨、阿嬤，有瘦子也有胖子</td></tr>
+            <tr><td>外貌</td><td>清一色都是其貌不揚的中年婦女和阿嬤，沒有年輕姑娘，有瘦子也有胖子</td></tr>
             <tr><td>眼睛顏色</td><td>藍色、黑色</td></tr>
-            <tr><td>髮色</td><td>黑色、金色、紅色、白色、棕色</td></tr>
+            <tr><td>髮色</td><td>白色</td></tr>
             <tr><td>衣著</td><td>黑色長袍、黑色兜帽（裡襯為白色）、白色領巾、十字架項鍊</td></tr>
-            <tr><td>身高</td><td>從一百五十公分到一百八十公分不等</td></tr>
+            <tr><td>身高</td><td>從一百五十公分到一百六十五公分不等</td></tr>
             <tr><td>武器</td><td>十字架、聖經</td></tr>
             <tr><td>攻擊方式</td><td>用聖經和十字架對玩家進行魔法攻擊，但只有在離玩家三米內才有效，不具備遠程攻擊，非常垃圾</td></tr>
         </table>
@@ -802,7 +811,7 @@
         <h2>傳教士</h2>
         <table>
             <tr><th>屬性</th><th>描述</th></tr>
-            <tr><td>外貌</td><td>清一色都是男性，有男孩、大叔、老阿公，有瘦子也有胖子，額頭刻有十字架的圖案</td></tr>
+            <tr><td>外貌</td><td>清一色都是男性，但都是其貌不揚的中年人與老年人，有瘦子也有胖子，但沒有年輕帥哥，額頭刻有十字架的圖案</td></tr>
             <tr><td>眼睛顏色</td><td>藍色、黑色</td></tr>
             <tr><td>髮色</td><td>黑色、金色、紅色、白色、棕色</td></tr>
             <tr><td>衣著</td><td>全身黑的宗教服飾、黑色的兜帽（裡襯為黑色）</td></tr>
@@ -816,11 +825,11 @@
         <h2>吸血鬼獵人</h2>
         <table>
             <tr><th>屬性</th><th>描述</th></tr>
-            <tr><td>外貌</td><td>清一色都是男性，有中年人也有年輕人，但沒有老人和胖子，額頭上刻有十字架的圖案</td></tr>
-            <tr><td>眼睛顏色</td><td>藍色、黑色、綠色</td></tr>
+            <tr><td>外貌</td><td>清一色都是男性，但都是其貌不揚的中年人，沒有老人、胖子、年輕帥哥，額頭上刻有十字架的圖案</td></tr>
+            <tr><td>眼睛顏色</td><td>藍色、黑色</td></tr>
             <tr><td>髮色</td><td>黑色、金色、紅色、白色、棕色</td></tr>
             <tr><td>衣著</td><td>高帽、黑色連身長外套、皮帶、皮靴</td></tr>
-            <tr><td>身高</td><td>從一百六十五公分到一百九十公分不等</td></tr>
+            <tr><td>身高</td><td>從一百七十公分到一百九十公分不等</td></tr>
             <tr><td>武器</td><td>銀製短刀、銀製弩、聖水炸彈</td></tr>
             <tr><td>攻擊方式</td><td>近戰使用銀製短刀；遠程使用銀製弩（射程為二十米）、聖水炸彈（波及範圍為方圓十米內）</td></tr>
             <tr><td>戰鬥定位</td><td>適合進行中距離壓制，數量較多，具有較強的對付吸血鬼的能力</td></tr>
@@ -856,26 +865,49 @@
     </table>
 </section>
 <br>
-<section id="angel" class="animate-delay-10">
-    <h2>天使</h2>
+    <section id="female_angel" class="animate-delay-10">
+        <h2>雌性天使</h2>
+        <table>
+            <tr><th>屬性</th><th>描述</th></tr>
+            <tr><td>外貌</td><td>美麗的年輕白種女子</td></tr>
+            <tr><td>眼睛顏色</td><td>普通狀態下為碧藍色（象徵天使的純潔）；飛行模式下為燃燒的金紅色（象徵神的權威與不可侵犯性，和阿賽爾的<a href="#demon">闇紫色眼睛</a>成鮮明對比）</td></tr>
+            <tr><td>膚色</td><td>橄欖色</td></tr>
+            <tr><td>視覺年齡</td><td>二十歲</td></tr>
+            <tr><td>單臂力量</td><td>五百公斤</td></tr>
+            <tr><td>跳躍力</td><td>三十米高</td></tr>
+            <tr><td>衣著</td><td>身穿白色性感戰甲，露胸、肚臍、美腿</td></tr>
+            <tr><td>翅膀</td><td>潔白翅膀（全息投影，只有在飛行模式下才會出現）</td></tr>
+            <tr><td>光環</td><td>懸浮在頭上的黃色光環（全息投影，只有在飛行模式下才會出現）</td></tr>
+            <tr><td>身高</td><td>175公分（不包含光環和翅膀）</td></tr>
+            <tr><td>體重</td><td>55公斤</td></tr>
+            <tr><td>奔跑速度</td><td>時速三百公里</td></tr>
+            <tr><td>飛行速度</td><td>時速四百五十公里</td></tr>
+            <tr><td>魔法能力</td><td>聖光攻擊（從雙眼釋放出來且和雷射一樣快的光束，只對吸血鬼、惡魔、女巫有效）、元素控制（與<a href="#elemental_manipulation">阿賽爾</a>一樣）、元素球魔法（與<a href="#elemental_ball_magic">阿賽爾</a>一樣）</td></tr>
+            <tr><td>角色定位</td><td>最終階段敵人</td></tr>
+            <tr><td>戰鬥力</td><td>極高</td></tr>
+            <tr><td>不具備的技能</td><td>能量防護罩、時間暫停、變形、隔空取物、催眠、附身、控制天氣等</td></tr>
+        </table>
+    </section>
+    <br>
+<section id="male_angel" class="animate-delay-12">
+    <h2>雄性天使</h2>
     <table>
         <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>外貌</td><td>金髮帥氣的年輕白種男子</td></tr>
-        <tr><td>眼睛顏色</td><td>普通狀態下為碧藍色；飛行狀態下為燃燒的金紅色（象徵神的權威與不可侵犯性，和<a href="#demon">伊索爾德</a>的闇紫色眼睛成鮮明對比）</td></tr>
-        <tr><td>與<a href="#demon">阿賽爾</a>的關係</td><td>前同事</td></tr>
+        <tr><td>外貌</td><td>英俊的年輕白種男子</td></tr>
+        <tr><td>頭髮</td><td>金色短髮</td></tr>
+        <tr><td>眼睛顏色</td><td>常態下為碧藍色（象徵天使的純潔）；飛行模式下為燃燒的金紅色（象徵神的權威與不可侵犯性，和阿賽爾的<a href="#demon">闇紫色眼睛</a>成鮮明對比）</td></tr>
         <tr><td>膚色</td><td>橄欖色</td></tr>
-        <tr><td>視覺年齡</td><td>二十五歲</td></tr>
-        <tr><td>單臂力量</td><td>二噸</td></tr>
+        <tr><td>視覺年齡</td><td>二十歲</td></tr>
+        <tr><td>單臂力量</td><td>一噸</td></tr>
         <tr><td>跳躍力</td><td>六十米高</td></tr>
         <tr><td>衣著</td><td>上半身打赤膊，下半身穿白色長褲</td></tr>
-        <tr><td>翅膀</td><td>潔白翅膀（全息投影，只有在飛行狀態下才會出現）</td></tr>
-        <tr><td>光環</td><td>懸浮在頭上的黃色光環（全息投影，只有在飛行狀態下才會出現）</td></tr>
+        <tr><td>翅膀</td><td>潔白翅膀（全息投影，只有在飛行模式下才會出現）</td></tr>
+        <tr><td>光環</td><td>懸浮在頭上的黃色光環（全息投影，只有在飛行模式下才會出現）</td></tr>
         <tr><td>身高</td><td>195公分（不包含光環和翅膀）</td></tr>
         <tr><td>體重</td><td>85公斤</td></tr>
-        <tr><td>跳躍力</td><td>約60米高</td></tr>
         <tr><td>奔跑速度</td><td>時速六百公里</td></tr>
         <tr><td>飛行速度</td><td>時速九百公里</td></tr>
-        <tr><td>魔法能力</td><td>聖光攻擊（從雙眼釋放出來且和雷射一樣快的光束，只對吸血鬼、惡魔、女巫有效）、元素控制（與<a href="#elemental_manipulation">伊索爾德</a>一樣）、元素球魔法（與<a href="#elemental_ball_magic">伊索爾德</a>一樣）</td></tr>
+        <tr><td>魔法能力</td><td>聖光攻擊（從雙眼釋放出來且和雷射一樣快的光束，只對吸血鬼、惡魔、女巫有效）、元素控制（與<a href="#elemental_manipulation">阿賽爾</a>一樣）、元素球魔法（與<a href="#elemental_ball_magic">阿賽爾</a>一樣）</td></tr>
         <tr><td>角色定位</td><td>最終階段敵人</td></tr>
         <tr><td>戰鬥力</td><td>極高</td></tr>
         <tr><td>不具備的技能</td><td>能量防護罩、時間暫停、變形、隔空取物、催眠、附身、控制天氣等</td></tr>
