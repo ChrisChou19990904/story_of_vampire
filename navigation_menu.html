@@ -50,9 +50,6 @@
         #paladin{
             background-color: lightyellow;
         }
-        #pope{
-            background-color: lightblue;
-        }
         #female_angel{
             background-color: lightpink;
         }
@@ -142,7 +139,6 @@
         <a href="#missionary">傳教士</a>
         <a href="#vampire_hunter">吸血鬼獵人</a>
         <a href="#paladin">聖騎士</a>
-        <a href="#pope">教宗</a>
         <a href="#female_angel">雌性天使</a>
         <a href="#male_angel">雄性天使</a>
     </nav>
@@ -534,7 +530,7 @@
                         <tbody>
                         <tr style="background-color: #f9f9f9;">
                             <td style="padding: 12px; border: 1px solid #ddd;"><strong>能力描述</strong></td>
-                            <td style="padding: 12px; border: 1px solid #ddd;">火球、冰球、電球等，爆炸範圍五十公尺，屬於遠程攻擊。</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">使用波動拳的手勢發射出火球、冰球、電球等，爆炸範圍五十公尺，屬於遠程攻擊。</td>
                         </tr>
                         <tr style="background-color: #f9f9f9;">
                             <td style="padding: 12px; border: 1px solid #ddd;"><strong>範圍</strong></td>
@@ -797,7 +793,7 @@
         <h2>修女</h2>
         <table>
             <tr><th>屬性</th><th>描述</th></tr>
-            <tr><td>外貌</td><td>清一色都是其貌不揚的中年婦女和阿嬤，沒有年輕姑娘，有瘦子也有胖子</td></tr>
+            <tr><td>外貌</td><td>清一色都是其貌不揚的中年婦女和阿嬤，沒有年輕美麗的姑娘，有瘦子也有胖子</td></tr>
             <tr><td>眼睛顏色</td><td>藍色、黑色</td></tr>
             <tr><td>髮色</td><td>白色</td></tr>
             <tr><td>衣著</td><td>黑色長袍、黑色兜帽（裡襯為白色）、白色領巾、十字架項鍊</td></tr>
@@ -811,13 +807,13 @@
         <h2>傳教士</h2>
         <table>
             <tr><th>屬性</th><th>描述</th></tr>
-            <tr><td>外貌</td><td>清一色都是男性，但都是其貌不揚的中年人與老年人，有瘦子也有胖子，但沒有年輕帥哥，額頭刻有十字架的圖案</td></tr>
+            <tr><td>外貌</td><td>清一色都是男性，但都是其貌不揚的中年人與老年人，有瘦子也有胖子，沒有年輕帥哥，額頭刻有十字架的圖案</td></tr>
             <tr><td>眼睛顏色</td><td>藍色、黑色</td></tr>
             <tr><td>髮色</td><td>黑色、金色、紅色、白色、棕色</td></tr>
             <tr><td>衣著</td><td>全身黑的宗教服飾、黑色的兜帽（裡襯為黑色）</td></tr>
             <tr><td>身高</td><td>從一百六十五公分到一百九十公分不等</td></tr>
-            <tr><td>武器</td><td>十字架、聖經</td></tr>
-            <tr><td>攻擊方式</td><td>用聖經和十字架對玩家進行魔法攻擊，但只有在離玩家三米內才有效，不具備遠程攻擊，非常垃圾</td></tr>
+            <tr><td>武器</td><td>十字架、聖經、聖水瓶</td></tr>
+            <tr><td>攻擊方式</td><td><ol><li>近戰：十字架與聖經</li><li>遠程：將聖水灑出去，但範圍為十米</li></ol></td></tr>
         </table>
     </section>
     <br>
@@ -829,9 +825,9 @@
             <tr><td>眼睛顏色</td><td>藍色、黑色</td></tr>
             <tr><td>髮色</td><td>黑色、金色、紅色、白色、棕色</td></tr>
             <tr><td>衣著</td><td>高帽、黑色連身長外套、皮帶、皮靴</td></tr>
-            <tr><td>身高</td><td>從一百七十公分到一百九十公分不等</td></tr>
-            <tr><td>武器</td><td>銀製短刀、銀製弩、聖水炸彈</td></tr>
-            <tr><td>攻擊方式</td><td>近戰使用銀製短刀；遠程使用銀製弩（射程為二十米）、聖水炸彈（波及範圍為方圓十米內）</td></tr>
+            <tr><td>身高</td><td>從一百八十公分到一百九十公分不等</td></tr>
+            <tr><td>武器</td><td><ol><li>銀製短刀</li><li>銀製弩（射程為二十米）</li><li>聖水炸彈（波及範圍為方圓二十米內，殺傷力遠超過傳教士的聖水瓶）</li></ol></td></tr>
+            <tr><td>攻擊方式</td><td>近戰使用銀製短刀；遠程使用銀製弩、聖水手榴彈</td></tr>
             <tr><td>戰鬥定位</td><td>適合進行中距離壓制，數量較多，具有較強的對付吸血鬼的能力</td></tr>
         </table>
     </section>
@@ -848,28 +844,13 @@
             <tr><td>戰鬥定位</td><td>高防禦，適合團隊作戰，具備強大的生存能力和持久力</td></tr>
         </table>
     </section>
-    <br>
-<section id="pope" class="animate-delay-9">
-    <h2>教宗</h2>
-    <table>
-        <tr><th>屬性</th><th>描述</th></tr>
-        <tr><td>外貌</td><td>肥胖、矮小，且其貌不揚的年長白種男性</td></tr>
-        <tr><td>眼睛顏色</td><td>黑色</td></tr>
-        <tr><td>髮色</td><td>光頭</td></tr>
-        <tr><td>身高</td><td>165 公分</td></tr>
-        <tr><td>體重</td><td>75 公斤</td></tr>
-        <tr><td>衣著</td><td>白色宗教服飾</td></tr>
-        <tr><td>武器</td><td>銀製權杖</td></tr>
-        <tr><td>攻擊方式</td><td>用銀製權杖打玩家（此招為近戰攻擊和物理攻擊）、發射聖光組成的能量光球（從銀製權杖發射出來，只對吸血鬼、惡魔、女巫有效，有追蹤功能，此招為遠程攻擊和魔法攻擊）</td></tr>
-        <tr><td>防禦方式</td><td>聖光屏障（玩家碰到會被灼傷）</td></tr>
-    </table>
-</section>
 <br>
-    <section id="female_angel" class="animate-delay-10">
+    <section id="female_angel" class="animate-delay-9">
         <h2>雌性天使</h2>
         <table>
             <tr><th>屬性</th><th>描述</th></tr>
             <tr><td>外貌</td><td>美麗的年輕白種女子</td></tr>
+            <tr><td>頭髮</td><td>金色長髮</td></tr>
             <tr><td>眼睛顏色</td><td>普通狀態下為碧藍色（象徵天使的純潔）；飛行模式下為燃燒的金紅色（象徵神的權威與不可侵犯性，和阿賽爾的<a href="#fly">闇紫色眼睛</a>成鮮明對比）</td></tr>
             <tr><td>膚色</td><td>橄欖色</td></tr>
             <tr><td>視覺年齡</td><td>二十歲</td></tr>
@@ -882,14 +863,51 @@
             <tr><td>體重</td><td>55公斤</td></tr>
             <tr><td>奔跑速度</td><td>時速三百公里</td></tr>
             <tr><td>飛行速度</td><td>時速四百五十公里</td></tr>
-            <tr><td>魔法能力</td><td>聖光攻擊（從雙眼釋放出來且和雷射一樣快的光束，只對吸血鬼、惡魔、女巫有效）、元素控制（與<a href="#elemental_manipulation">阿賽爾</a>一樣）、元素球魔法（與<a href="#elemental_ball_magic">阿賽爾</a>一樣）</td></tr>
+            <tr><td>魔法能力</td><td>
+                <table border="1">
+                    <thead>
+                    <tr>
+                        <th>技能名稱</th>
+                        <th>描述</th>
+                        <th>補充說明</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>聖光雷射</td>
+                        <td>從雙眼釋放出來的光束，速度如雷射般快速，耗能較小。</td>
+                        <td>僅對吸血鬼、惡魔、女巫有效。</td>
+                    </tr>
+                    <tr>
+                        <td>聖光元氣彈</td>
+                        <td>雙手舉起，頭上形成聖光能量球，往地面砸下。</td>
+                        <td>方圓一百公尺內造成大範圍高傷害，殺傷力大於聖光雷射，但技能前搖較長且耗能較大。</td>
+                    </tr>
+                    <tr>
+                        <td>聖光屏障</td>
+                        <td>由聖光組成的能量護盾。</td>
+                        <td>玩家碰觸會被灼傷。</td>
+                    </tr>
+                    <tr>
+                        <td>元素控制</td>
+                        <td>與 <a href="#elemental_manipulation">阿賽爾</a> 相同。</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>元素球魔法</td>
+                        <td>與 <a href="#elemental_ball_magic">阿賽爾</a> 相同。</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td></tr>
             <tr><td>角色定位</td><td>最終階段敵人</td></tr>
             <tr><td>戰鬥力</td><td>極高</td></tr>
-            <tr><td>不具備的技能</td><td>能量防護罩、聖光屏障、靈體化、時間暫停、變形、隔空取物、催眠、附身、控制天氣等</td></tr>
+            <tr><td>不具備的技能</td><td>能量防護罩、靈體化、時間暫停、變形、隔空取物、催眠、附身、控制天氣等</td></tr>
         </table>
     </section>
     <br>
-<section id="male_angel" class="animate-delay-12">
+<section id="male_angel" class="animate-delay-10">
     <h2>雄性天使</h2>
     <table>
         <tr><th>屬性</th><th>描述</th></tr>
@@ -907,10 +925,47 @@
         <tr><td>體重</td><td>85公斤</td></tr>
         <tr><td>奔跑速度</td><td>時速六百公里</td></tr>
         <tr><td>飛行速度</td><td>時速九百公里</td></tr>
-        <tr><td>魔法能力</td><td>聖光攻擊（從雙眼釋放出來且和雷射一樣快的光束，只對吸血鬼、惡魔、女巫有效）、元素控制（與<a href="#elemental_manipulation">阿賽爾</a>一樣）、元素球魔法（與<a href="#elemental_ball_magic">阿賽爾</a>一樣）</td></tr>
+        <tr><td>魔法能力</td><td>
+            <table border="1">
+                <thead>
+                <tr>
+                    <th>技能名稱</th>
+                    <th>描述</th>
+                    <th>補充說明</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>聖光雷射</td>
+                    <td>從雙眼釋放出來的光束，速度如雷射般快速，耗能較小。</td>
+                    <td>僅對吸血鬼、惡魔、女巫有效。</td>
+                </tr>
+                <tr>
+                    <td>聖光元氣彈</td>
+                    <td>雙手舉起，頭上形成聖光能量球，往地面砸下。</td>
+                    <td>方圓一百公尺內造成大範圍高傷害，殺傷力大於聖光雷射，但技能前搖較長且耗能較大。</td>
+                </tr>
+                <tr>
+                    <td>聖光屏障</td>
+                    <td>由聖光組成的能量護盾。</td>
+                    <td>玩家碰觸會被灼傷。</td>
+                </tr>
+                <tr>
+                    <td>元素控制</td>
+                    <td>與 <a href="#elemental_manipulation">阿賽爾</a> 相同。</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>元素球魔法</td>
+                    <td>與 <a href="#elemental_ball_magic">阿賽爾</a> 相同。</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </td></tr>
         <tr><td>角色定位</td><td>最終階段敵人</td></tr>
         <tr><td>戰鬥力</td><td>極高</td></tr>
-        <tr><td>不具備的技能</td><td>能量防護罩、聖光屏障、靈體化、時間暫停、變形、隔空取物、催眠、附身、控制天氣等</td></tr>
+        <tr><td>不具備的技能</td><td>能量防護罩、靈體化、時間暫停、變形、隔空取物、催眠、附身、控制天氣等</td></tr>
     </table>
 </section>
 
