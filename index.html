@@ -4,45 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>遊戲背景介紹</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: "Noto Sans", "Noto Sans CJK", "Microsoft JhengHei", sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 20px;
-      background-color: #f4f4f4;
-    }
-    h1, h2 {
-      color: #333;
-    }
     header {
-      background-color: pink;
+      background-color: #333;
       padding: 10px 0;
-    }
-    p {
-      margin-bottom: 20px;
-    }
-    .intro, .mechanics, .worldview, .design {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
-    }
-    .intro h2, .mechanics h2, .worldview h2, .design h2 {
-      margin-top: 0;
-    }
-    #google_translate_element {
-      position:absolute;
-      top: 80px;  /* 距離頁面頂端 60px */
-      left: 10px; /* 距離頁面左側 10px */
-      z-index: 9999; /* 保證它不會被其他元素遮蓋 */
     }
     nav {
       text-align: center;
     }
     nav a {
-      color: black;
+      color: white;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
@@ -50,18 +22,114 @@
     nav a:hover {
       text-decoration: underline;
     }
-    .forbidden-lore {
-      background-color: #2c2f33;  /* 深灰色背景 */
-      color: #f0e68c;             /* 淡黃文字，帶神秘感 */
-      border: 2px solid #f0e68c; /* 同色邊框 */
-      padding: 20px;
-      border-radius: 10px;
-      font-family: 'Georgia', serif;
-      max-width: 800px;
-      margin: 20px auto;
+    body {
+      background-color: #f9f1e7; /* 羊皮紙色 */
+      color: #3e2f1c; /* 深棕色文字 */
+      font-family: 'IM Fell English', 'Georgia', serif;
+      line-height: 1.7;
+      padding: 30px 40px;
+      font-size: 18px;
+      letter-spacing: 0.03em;
     }
-    .forbidden-lore h2, .forbidden-lore h3 {
-      color: #ffd700; /* 金色標題 */
+
+    /* 載入Google字體 - IM Fell English */
+    @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+    /* 標題 */
+    h1, h2, h3 {
+      font-family: 'IM Fell English', serif;
+      color: #5a3e1b; /* 古銅色 */
+      text-shadow: 1px 1px 0 #d9c8a6;
+      margin-bottom: 20px;
+    }
+
+    /* 段落 */
+    p {
+      margin-bottom: 18px;
+      color: #4a3b23;
+    }
+
+    /* 容器區塊 */
+    .intro, .mechanics, .worldview, .design, .forbidden-lore {
+      background-color: #fff8e1; /* 更淺的羊皮紙 */
+      border: 2px solid #a17c41; /* 古銅邊框 */
+      padding: 25px 30px;
+      margin-bottom: 40px;
+      border-radius: 6px;
+      box-shadow: 4px 4px 8px #c6b38e88;
+    }
+
+    /* 表格 */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      background-color: #fff8e1;
+      box-shadow: 2px 2px 6px #b49e6b88;
+      font-size: 16px;
+    }
+
+    th, td {
+      border: 1.5px solid #a17c41;
+      padding: 14px 18px;
+      text-align: left;
+      color: #4a3b23;
+    }
+
+    th {
+      background-color: #e4d7b1; /* 米黃色 */
+      color: #6f542a;
+      font-weight: 700;
+      text-shadow: 1px 1px 0 #fff9dc;
+    }
+
+    /* 滑鼠移上表格列變色 */
+    tbody tr:hover {
+      background-color: #f4e8c1;
+      cursor: default;
+    }
+
+    /* 吸血鬼與女巫欄位淡色底 */
+    .vampire, .witch {
+      background-color: #f0e6c2;
+      color: #3e2f1c !important;
+      font-weight: 600;
+    }
+
+    /* 強調文字 */
+    strong {
+      color: #7a5e20;
+      font-style: italic;
+    }
+
+    /* 超連結 */
+    a {
+      color: #7a5e20;
+      text-decoration: underline dotted;
+    }
+
+    a:hover {
+      color: #a27f3a;
+      text-decoration: underline solid;
+    }
+
+    /* 標題字體大小 */
+    h1 {
+      font-size: 3.5rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 2.6rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      letter-spacing: 0.03em;
+      margin-bottom: 20px;
     }
   </style>
 </head>
