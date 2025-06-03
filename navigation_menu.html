@@ -185,7 +185,7 @@
             </thead>
                 <tr>
                     <td>彈跳力</td>
-                    <td>最高60公尺（背人減半為35公尺；抬重物無法跳躍）</td>
+                    <td>最高60公尺（背人減半為30公尺；抬重物無法跳躍）</td>
                 </tr>
                 <tr>
                     <td>奔跑速度</td>
@@ -219,6 +219,7 @@
                                 <li>在通緝狀態下會被偵測到</li>
                                 <li>不怕陽光，但物理力量下降</li>
                                 <li>只能舉起一百公斤以內的物體</li>
+                                <li>攜帶人類飛行時，飛行速度會變成八分之一</li>
                                 <li>依然懼怕聖物，無法進入教堂</li>
                             </ul>
                         </td>
@@ -230,7 +231,7 @@
                                 <li>飛行速度達一馬赫</li>
                                 <li>在通緝狀態下無法被偵測</li>
                                 <li>不可攻擊，但可穿牆、進入教堂</li>
-                                <li>對聖物免疫</li>
+                                <li>對陽光和聖物免疫</li>
                             </ul>
                         </td>
                     </tr>
@@ -240,19 +241,15 @@
                 <li>催眠NPC<table>
                     <thead>
                     <tr>
-                        <th>技能</th>
-                        <th>描述</th>
+                        <th>項目</th>
+                        <th>詳細描述</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>催眠能力</td>
-                        <td>可對非玩家角色施放催眠，無時間限制。</td>
-                    </tr>
-                    <tr>
                         <td>效果</td>
                         <td>
-                            被利奧催眠的非玩家角色並不會獲得利奧的物理能力和魔法能力
+                            可控制所有非玩家角色，但被利奧催眠的非玩家角色並不會獲得利奧的物理能力和魔法能力
                         </td>
                     </tr>
                     <tr>
@@ -268,6 +265,40 @@
                     <tr>
                         <td>特殊效果</td>
                         <td>在使用技能時，如果是人類形態或蝙蝠形態，利奧的紅色眼睛會發光</td>
+                    </tr>
+                    <tr>
+                        <td>限制</td>
+                        <td><table border="1" cellpadding="6" cellspacing="0">
+                            <thead>
+                            <tr>
+                                <th>條件 / 限制</th>
+                                <th>說明</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>催眠持續時間</td>
+                                <td>最多 1 分鐘</td>
+                            </tr>
+                            <tr>
+                                <td>催眠冷卻時間</td>
+                                <td>結束催眠後需冷卻 1 分鐘</td>
+                            </tr>
+                            <tr>
+                                <td>催眠距離限制</td>
+                                <td>對象離利奧超過 20 公尺催眠立即失效</td>
+                            </tr>
+                            <tr>
+                                <td>玩家可中途停止催眠</td>
+                                <td>可隨時手動中止催眠</td>
+                            </tr>
+                            <tr>
+                                <td>停止催眠冷卻條件</td>
+                                <td>若超過 10 秒才停止，也會進入 1 分鐘冷卻</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </td>
                     </tr>
                     </tbody>
                 </table></li>
@@ -388,7 +419,7 @@
                     <table border="1">
                         <caption>🔥 火元素技能</caption>
                         <tr><th>技能名稱</th><th>效果說明</th></tr>
-                        <tr><td>火球術（Fire Ball）</td><td>向敵人發射一顆燃燒效果的能量球，造成大範圍爆炸（波及範圍為方圓二十公尺內），只有燃燒效果、並不具備機械力，但距離太近會波及到自己</td></tr>
+                        <tr><td>火球術（Fire Ball）</td><td>向敵人發射一顆燃燒效果的能量球，造成大範圍爆炸（波及範圍為方圓二十公尺內），只有燃燒效果、並不具備機械力，且距離太近會波及到自己</td></tr>
                         <tr><td>烈焰牆（Flame Wall）</td><td>召喚一道橫向火牆，阻擋並灼燒接觸者。</td></tr>
                         <tr><td>熾焰加護（Flame Veil）</td><td>暫時強化女巫，使普通的拳腳攻擊附帶燃燒效果。</td></tr>
                         <tr><td>爆炎術（Inferno Burst）</td><td>積蓄能量釋放強力爆炸，清場大招，範圍為方圓二十公尺內，但只有燃燒效果、並不具備機械力。</td></tr>
@@ -397,14 +428,14 @@
                         <caption>💧 水元素技能</caption>
                         <tr><th>技能名稱</th><th>效果說明</th></tr>
                         <tr><td>水牢術（Water Prison）</td><td>將敵人困在水球中，造成窒息效果，但每次最多只能針對十人且目標需要在方圓二十公尺內</td></tr>
-                        <tr><td>冰凍掌（Frost Hand）</td><td>向方圓五公尺內發射冷卻液，凍住來自四面八方的敵人</td></tr>
-                        <tr><td>冰球術（Frost Ball）</td><td>向敵人發射一顆有冷凍效果的能量球，造成大範圍爆炸，但距離太近會波及到自己</td></tr>
+                        <tr><td>冰凍掌（Frost Hand）</td><td>向方圓五公尺內發射冷卻液組成的白色霧氣，凍住來自四面八方的敵人</td></tr>
+                        <tr><td>冰球術（Frost Ball）</td><td>向敵人發射一顆有冰凍效果的能量球，造成大範圍爆炸（波及範圍為方圓二十公尺內），只有冰凍效果、並不具備機械力，且距離太近會波及到自己</td></tr>
                         <tr><td>水盾（Water Barrier）</td><td>創造圓形水盾，吸收一定傷害和減緩敵人的物理攻擊。</td></tr>
                     </table>
                     <table border="1">
                         <caption>🪨 土元素技能</caption>
                         <tr><th>技能名稱</th><th>效果說明</th></tr>
-                        <tr><td>地刺（Stone Spike）</td><td>從地面刺出尖石攻擊敵人，但僅限於方圓五公尺內的敵人。</td></tr>
+                        <tr><td>地刺（Stone Spike）</td><td>從地面刺出尖石攻擊敵人，但僅限於方圓二十公尺內的敵人。</td></tr>
                         <tr><td>岩盾（Stone Guard）</td><td>喚出岩石護盾，提升防禦與抗擊退。</td></tr>
                         <tr><td>土牢術（Earthen Bind）</td><td>用泥土束縛敵人腳部，短暫定身。</td></tr>
                         <tr><td>岩石皮膚（Stone Skin）</td><td>將身體變得和岩石一樣硬，可大大增加物理力量和物理防禦，但無法奔跑和跳躍</td></tr>
@@ -413,7 +444,7 @@
                         <caption>🌪️ 風元素技能</caption>
                         <tr><th>技能名稱</th><th>效果說明</th></tr>
                         <tr><td>風刃（Wind Blade）</td><td>發射高速空氣刃，切割敵人，但空氣刃只能持續二十米且無追蹤功能。</td></tr>
-                        <tr><td>風牆（Wind Wall）</td><td>建立一道強烈的風牆，敵人觸碰到會被切碎成肉塊、武器觸碰到會被彈開。</td></tr>
+                        <tr><td>風牆（Wind Wall）</td><td>建立一道強烈的風牆，敵人觸碰到會被切碎成肉塊、武器觸碰到會被切成碎片。</td></tr>
                         <tr><td>爆音術（Sonic Bomb）</td><td>利用風速製造超音速衝擊波，向四周產生強大的機械力。</td></tr>
                         <tr><td>龍捲風（Tornado）</td><td>召喚龍捲風將敵人捲到空中再落下來讓它們摔死。</td></tr>
                     </table>
@@ -438,7 +469,7 @@
                         <tbody>
                         <tr style="background-color: #f9f9f9;">
                             <td style="padding: 12px; border: 1px solid #ddd;"><strong>能力描述</strong></td>
-                            <td style="padding: 12px; border: 1px solid #ddd;">製造一個球狀能量屏障包住自己</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">製造一個紫色透明球狀能量屏障包住自己</td>
                         </tr>
                         <tr style="background-color: #f9f9f9;">
                             <td style="padding: 12px; border: 1px solid #ddd;"><strong>可抵擋的攻擊</strong></td>
