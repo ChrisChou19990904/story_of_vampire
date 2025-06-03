@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>主角能力比較表</title>
+    <style>
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #333; /* 整體外框加粗 */
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            border: 1px solid #555; /* 每格都有明顯邊框 */
+        }
+        th {
+            background-color: #cfd8ff; /* 淺藍紫色 */
+            color: #000; /* 字體顏色改為黑色 */
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        header {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            color: #333;
+        }
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                display: none;
+            }
+            tr {
+                margin-bottom: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+                padding: 10px;
+            }
+            td {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+            }
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 16px;
+                width: 45%;
+                text-align: left;
+                font-weight: bold;
+                color: #333;
+            }
+        }
+        #google_translate_element {
+            position:absolute;
+            top: 10px;  /* 距離頁面頂端 60px */
+            left: 10px; /* 距離頁面左側 10px */
+            z-index: 9999; /* 保證它不會被其他元素遮蓋 */
+        }
+    </style>
+</head>
+<body>
+<div id="google-translate-box">
+    <div id="google_translate_element"></div>
+    <!-- Google Translate 的自動翻譯功能 -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'zh-TW',  // 頁面原語言
+                includedLanguages: 'en,es,fr,de,it,zh-CN,ja,ko,th,vi,my,id,ms,ar,he,ru,tg,uk,hi,tr,pt,nl,is,fi,sv,no,ro,kk,bo,mn,la,fil,tl,el',  // 支援的翻譯語言（可擴展）
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <p>點擊上方的語言選單以切換語言</p>
+</div>
+<header><nav><a href="index.html" target="_blank">遊戲背景介紹</a><a href="background_of_protagnoists.html">主角生平介紹</a><a href="navigation_menu.html" target="_blank">角色資料頁面</a><a href="creatures_on_Aetherlon.html" target="_blank">遊戲物種介紹</a></nav></header>
+<br>
+<h2>吸血鬼（利奧） vs 女巫（伊索爾德）能力比較表</h2>
+<table>
+    <thead>
+    <tr>
+        <th>項目</th>
+        <th>吸血鬼（利奧）</th>
+        <th>女巫（伊索爾德）</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td data-label="項目">魔法種類</td>
+        <td data-label="吸血鬼">4 種</td>
+        <td data-label="女巫">5 大類</td>
+    </tr>
+    <tr>
+        <td data-label="項目">子技能數量</td>
+        <td data-label="吸血鬼">約 7（含細分）</td>
+        <td data-label="女巫">20+</td>
+    </tr>
+    <tr>
+        <td data-label="項目">攻擊魔法多樣性</td>
+        <td data-label="吸血鬼">較少（閃電、動物攻擊）</td>
+        <td data-label="女巫">極高（四大元素、時間、風暴）</td>
+    </tr>
+    <tr>
+        <td data-label="項目">控場能力</td>
+        <td data-label="吸血鬼">中等</td>
+        <td data-label="女巫">很強（水牢、風牆、時間暫停）</td>
+    </tr>
+    <tr>
+        <td data-label="項目">補助與防禦技能</td>
+        <td data-label="吸血鬼">有（催眠、烏雲）</td>
+        <td data-label="女巫">有（防護罩、隱形、隔空取物）</td>
+    </tr>
+    <tr>
+        <td data-label="項目">魔法施法場景適應</td>
+        <td data-label="吸血鬼">受限（戶外優勢）</td>
+        <td data-label="女巫">高（室內外皆可使用多數魔法）</td>
+    </tr>
+    <tr>
+        <td data-label="項目">體能（力量）</td>
+        <td data-label="吸血鬼">極高（能擊碎石牆、掀翻馬車）</td>
+        <td data-label="女巫">一般人類等級</td>
+    </tr>
+    <tr>
+        <td data-label="項目">速度</td>
+        <td data-label="吸血鬼">極快（超越人眼反應）</td>
+        <td data-label="女巫">普通，需靠魔法閃避或牽制敵人</td>
+    </tr>
+    <tr>
+        <td data-label="項目">耐久度</td>
+        <td data-label="吸血鬼">高（快速再生、耐衝擊）</td>
+        <td data-label="女巫">低，仰賴魔法防護</td>
+    </tr>
+    <tr>
+        <td data-label="項目">戰鬥風格</td>
+        <td data-label="吸血鬼">近戰主動突擊型</td>
+        <td data-label="女巫">遠程施法、戰術型</td>
+    </tr>
+    <tr>
+        <td data-label="項目">弱點</td>
+        <td data-label="吸血鬼">陽光、銀製武器、神聖符文</td>
+        <td data-label="女巫">物理抗打能力低</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
